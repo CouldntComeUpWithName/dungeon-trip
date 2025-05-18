@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14..3.24)
 
-project( MyProject 
+project( DungeonTrip 
   VERSION 0.0.0
   DESCRIPTION "template-project"
   LANGUAGES CXX C )
@@ -13,8 +13,7 @@ include(FetchContent)
 
 include(cmake/target.cmake)
 
-add_subdirectory(app)
-add_subdirectory(library)
+add_subdirectory(game)
 
 add_subdirectory(3rd-party)
 add_subdirectory(tools)

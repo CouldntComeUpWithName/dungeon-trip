@@ -1,0 +1,6 @@
+[submodule "3rd-party/gES"]
+	path = 3rd-party/gES
+	url = https://github.com/CouldntComeUpWithName/gES.git
+[submodule "3rd-party/ges"]
+	path = 3rd-party/ges
+	url = https://github.com/CouldntComeUpWithName/gES.git
